@@ -1,0 +1,79 @@
+/* You can add custom styles here */
+
+/* Optional: Add some additional styling for better appearance */
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.parallax-jumbotron {
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 600px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron-heading {
+  font-size: 3rem;
+}
+
+.jumbotron-subheading {
+  font-size: 1.5rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+}
+
+
+.product-card {
+  height: 400px; /* Adjust the height based on your preference */
+  margin-bottom: 20px;
+}
+
+.product-image {
+  height: 70%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.product-details {
+  padding: 10px;
+  height: 30%;
+}
+
+.product-details h5 {
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+}
